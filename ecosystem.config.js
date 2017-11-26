@@ -11,6 +11,8 @@ module.exports = {
       host: 'ec2-13-127-17-170.ap-south-1.compute.amazonaws.com',
       key: 'codeDeployTest.pem',
       ref: 'origin/master',
+      "post-setup": "ls -la",
+      "pre-deploy-local" : "echo 'This is a local executed command'",
       //repo: 'git@github.com:Manishjha1991/AutoCodeDeploy',
       repo: 'https://github.com/Manishjha1991/AutoCodeDeploy.git',
       "ssh_options": ["StrictHostKeyChecking=no", "PasswordAuthentication=no"],
