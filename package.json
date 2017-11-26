@@ -1,0 +1,22 @@
+{
+  "name": "autocodedeploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manishjha1991/AutoCodeDeploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manishjha1991/AutoCodeDeploy/issues"
+  },
+  "homepage": "https://github.com/Manishjha1991/AutoCodeDeploy#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
