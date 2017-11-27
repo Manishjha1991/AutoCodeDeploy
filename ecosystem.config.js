@@ -13,7 +13,6 @@ module.exports = {
       ref: 'origin/master',
       "post-setup": "ls -la",
       "pre-deploy-local" : "echo 'This is a local executed command'",
-      //repo: 'git@github.com:Manishjha1991/AutoCodeDeploy',
       repo: 'https://github.com/Manishjha1991/AutoCodeDeploy.git',
       "ssh_options": ["StrictHostKeyChecking=no", "PasswordAuthentication=no"],
       path: '/home/ec2-user/AutoCodeDeploy',
